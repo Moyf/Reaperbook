@@ -3,10 +3,12 @@
 ## 简介
 
 知乎专栏：<https://zhuanlan.zhihu.com/reaper>
+
 微信公众号：<u>reaperbook</u> （REAPER 手册）
 
 REAPER 相关的各种教程、基础说明、技巧分享和问答。
 
+</br>
 其实主要是因为 Git 上可以保存各种提问记录——没错！就是冲着 Issues 开的仓库。
 而且方便我储存修改记录和随地开坑了。
 

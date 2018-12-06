@@ -14,7 +14,7 @@
   "sourceBin" : [
     {
       "id" : 1,
-      "src" : "C:\\Users\\hln4446\\Documents\\Camtasia\\录制日期 12-03-18.trec",
+      "src" : "E:\\Projects\\Self\\_REAPER 教程系列\\Reaperbook\\专栏文章\\13 标齐功能 Offset\\assets\\录制日期 12-03-18.trec",
       "rect" : [0, 0, 804, 468],
       "lastMod" : "20181203T054017",
       "sourceTracks" : [
@@ -52,7 +52,7 @@
     },
     {
       "id" : 2,
-      "src" : "C:\\Users\\hln4446\\Documents\\Camtasia\\录制日期 12-03-18 1.trec",
+      "src" : "E:\\Projects\\Self\\_REAPER 教程系列\\Reaperbook\\专栏文章\\13 标齐功能 Offset\\assets\\录制日期 12-03-18 1.trec",
       "rect" : [0, 0, 804, 468],
       "lastMod" : "20181203T060050",
       "sourceTracks" : [
@@ -1460,61 +1460,17 @@
                       "kind" : "remix",
                       "shape" : "shape-rectangle",
                       "style" : "basic",
-                      "fill-color-blue" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "fill-color-green" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "fill-color-opacity" : {
-                        "type" : "double",
-                        "defaultValue" : 0.566666666666668,
-                        "interp" : "linr"
-                      },
-                      "fill-color-red" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "height" : {
-                        "type" : "double",
-                        "defaultValue" : 164.000000000103,
-                        "interp" : "linr"
-                      },
-                      "stroke-color-blue" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
-                      "stroke-color-green" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
-                      "stroke-color-opacity" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
-                      "stroke-color-red" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
-                      "stroke-width" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "width" : {
-                        "type" : "double",
-                        "defaultValue" : 1013.00000000003,
-                        "interp" : "linr"
-                      },
+                      "fill-color-blue" : 0.0,
+                      "fill-color-green" : 0.0,
+                      "fill-color-opacity" : 0.566666666666668,
+                      "fill-color-red" : 0.0,
+                      "height" : 164.000000000103,
+                      "stroke-color-blue" : 1.0,
+                      "stroke-color-green" : 1.0,
+                      "stroke-color-opacity" : 1.0,
+                      "stroke-color-red" : 1.0,
+                      "stroke-width" : 0.0,
+                      "width" : 1013.00000000003,
                       "fill-style" : "solid",
                       "horizontal-alignment" : "center",
                       "stroke-style" : "solid",
@@ -1534,95 +1490,23 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : 18.4999999998083,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : 164.999999999855,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 18.4999999998083,
+                      "translation1" : 164.999999999855
                     },
                     "effects" : [
                         {
                           "effectName" : "DropShadow",
                           "category" : "categoryVisualEffects",
                           "parameters" : {
-                            "angle" : {
-                              "type" : "double",
-                              "defaultValue" : 5.49778714378214,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "blur" : {
-                              "type" : "double",
-                              "defaultValue" : 10.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-alpha" : {
-                              "type" : "double",
-                              "defaultValue" : 1.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-blue" : {
-                              "type" : "double",
-                              "defaultValue" : 0.1216,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-green" : {
-                              "type" : "double",
-                              "defaultValue" : 0.1216,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-red" : {
-                              "type" : "double",
-                              "defaultValue" : 0.1216,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
+                            "angle" : 5.49778714378214,
+                            "blur" : 10.0,
+                            "color-alpha" : 1.0,
+                            "color-blue" : 0.1216,
+                            "color-green" : 0.1216,
+                            "color-red" : 0.1216,
                             "enabled" : 1,
-                            "offset" : {
-                              "type" : "double",
-                              "defaultValue" : 10.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "opacity" : {
-                              "type" : "double",
-                              "defaultValue" : 0.4,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            }
+                            "offset" : 10.0,
+                            "opacity" : 0.4
                           }
                         }
                     ],
@@ -2422,50 +2306,18 @@
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : {
-                        "type" : "double",
-                        "defaultValue" : 417.00000000023,
-                        "interp" : "linr"
-                      },
-                      "width" : {
-                        "type" : "double",
-                        "defaultValue" : 772.000000000181,
-                        "interp" : "linr"
-                      },
-                      "word-wrap" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
+                      "height" : 417.00000000023,
+                      "width" : 772.000000000181,
+                      "word-wrap" : 1.0,
                       "horizontal-alignment" : "left",
                       "text" : "一句话总结：\r \r将 Snap Offset 设定在你需要对齐的音头上，然后移动音频块直到视频画面与预期一致即可。",
                       "vertical-alignment" : "center",
                       "font" : {
-                        "color-blue" : {
-                          "type" : "double",
-                          "defaultValue" : 1.0,
-                          "interp" : "linr"
-                        },
-                        "color-green" : {
-                          "type" : "double",
-                          "defaultValue" : 1.0,
-                          "interp" : "linr"
-                        },
-                        "color-red" : {
-                          "type" : "double",
-                          "defaultValue" : 1.0,
-                          "interp" : "linr"
-                        },
-                        "size" : {
-                          "type" : "double",
-                          "defaultValue" : 96.0,
-                          "interp" : "linr"
-                        },
-                        "tracking" : {
-                          "type" : "double",
-                          "defaultValue" : 0.0,
-                          "interp" : "linr"
-                        },
+                        "color-blue" : 1.0,
+                        "color-green" : 1.0,
+                        "color-red" : 1.0,
+                        "size" : 96.0,
+                        "tracking" : 0.0,
                         "name" : "Montserrat",
                         "weight" : "Regular"
                       },
@@ -2484,95 +2336,23 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : 15.9999999999098,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : 15.49999999969,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 15.9999999999098,
+                      "translation1" : 15.49999999969
                     },
                     "effects" : [
                         {
                           "effectName" : "DropShadow",
                           "category" : "categoryVisualEffects",
                           "parameters" : {
-                            "angle" : {
-                              "type" : "double",
-                              "defaultValue" : 5.49778714378214,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "blur" : {
-                              "type" : "double",
-                              "defaultValue" : 10.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-alpha" : {
-                              "type" : "double",
-                              "defaultValue" : 1.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-blue" : {
-                              "type" : "double",
-                              "defaultValue" : 0.1216,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-green" : {
-                              "type" : "double",
-                              "defaultValue" : 0.1216,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-red" : {
-                              "type" : "double",
-                              "defaultValue" : 0.1216,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
+                            "angle" : 5.49778714378214,
+                            "blur" : 10.0,
+                            "color-alpha" : 1.0,
+                            "color-blue" : 0.1216,
+                            "color-green" : 0.1216,
+                            "color-red" : 0.1216,
                             "enabled" : 1,
-                            "offset" : {
-                              "type" : "double",
-                              "defaultValue" : 10.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "opacity" : {
-                              "type" : "double",
-                              "defaultValue" : 0.4,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            }
+                            "offset" : 10.0,
+                            "opacity" : 0.4
                           }
                         }
                     ],
@@ -2797,8 +2577,9 @@
   },
   "metadata" : {
     "AutoSaveFile" : "C:\\Users\\hln4446\\AppData\\Local\\TechSmith\\Camtasia Studio\\18.0\\Auto-Saves\\181203_REAPER 吸附偏移设置9148fd4.autosave.tscproj",
-    "CanvasZoom" : 100,
+    "CanvasZoom" : 150,
     "Date" : "2018-12-03 01:40:25 下午",
+    "Fit" : 0,
     "IsAutoSave" : "0",
     "Language" : "ENU",
     "ProfileName" : "",

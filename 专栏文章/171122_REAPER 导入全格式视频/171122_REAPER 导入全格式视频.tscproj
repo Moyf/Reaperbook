@@ -1,0 +1,798 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "width" : 1920.0,
+  "height" : 1080.0,
+  "version" : "0.5",
+  "editRate" : 30,
+  "authoringClientName" :  {
+    "name" : "Camtasia Studio",
+    "platform" : "Windows",
+    "version" : "9.0"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "C:\\Users\\Moy\\Documents\\Camtasia Studio\\录制日期 17-11-22.trec",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20171122T070950",
+      "sourceTracks" : [
+        {
+          "range" : [0, 6391],
+          "type" : 0,
+          "editRate" : 30,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 29,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "metaData" : "录制日期 17-11-22.trec;"
+        },
+        {
+          "range" : [0, 9351168],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 2,
+          "metaData" : ""
+        },
+        {
+          "range" : [0, 9394176],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 2,
+          "metaData" : ""
+        }
+      ]
+    }
+  ],
+  "timeline" : {
+    "id" : 2,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "duration" : 210.8,
+          "title" : "",
+          "type" : "",
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 3,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 4,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "录制日期 17-11-22"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 5.40580913366284e-11,
+                              "interp" : "eioe"
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 7.17363946023397e-11,
+                              "interp" : "eioe"
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 245,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 245,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 5,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 245,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 245,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 0,
+                    "duration" : 245,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 6390,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 6,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 7,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "录制日期 17-11-22"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 5.40580913366284e-11,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 381,
+                                  "value" : -41.7219068857202,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 7.17363946023397e-11,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 381,
+                                  "value" : 150.198690674504,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 381,
+                                  "value" : 1.9735100677644,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 381,
+                                  "value" : 1.97351013320103,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 245,
+                          "duration" : 128,
+                          "mediaStart" : 245,
+                          "mediaDuration" : 128,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 381, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 8,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 245,
+                          "duration" : 128,
+                          "mediaStart" : 245,
+                          "mediaDuration" : 128,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 245,
+                    "duration" : 128,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 6390,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 9,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 10,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "录制日期 17-11-22"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 5.40580913366284e-11,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 381,
+                                  "value" : -41.7219068857202,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1127,
+                                  "value" : 1.95399252334028e-13,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1226,
+                                  "value" : 151.851851851777,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 7.17363946023397e-11,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 381,
+                                  "value" : 150.198690674504,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1127,
+                                  "value" : 0.0,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1226,
+                                  "value" : -6.79136746839504e-11,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 381,
+                                  "value" : 1.9735100677644,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1127,
+                                  "value" : 0.99999996684252,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1226,
+                                  "value" : 1.85648104273324,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 381,
+                                  "value" : 1.97351013320103,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1127,
+                                  "value" : 1.0,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1226,
+                                  "value" : 1.85648185726088,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 373,
+                          "duration" : 5951,
+                          "mediaStart" : 439,
+                          "mediaDuration" : 5951,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 381, 30]
+                              },
+                              {
+                                "range" : [ 1127, 30]
+                              },
+                              {
+                                "range" : [ 1226, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 11,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 373,
+                          "duration" : 5951,
+                          "mediaStart" : 439,
+                          "mediaDuration" : 5951,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 373,
+                    "duration" : 5951,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 6390,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 12,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "录制日期 17-11-22",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 245,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 245,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 13,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "录制日期 17-11-22",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 245,
+                    "duration" : 128,
+                    "mediaStart" : 245,
+                    "mediaDuration" : 128,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 14,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 1,
+                    "attributes" : {
+                      "ident" : "录制日期 17-11-22",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 16,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 373,
+                    "duration" : 5922,
+                    "mediaStart" : 439,
+                    "mediaDuration" : 5922,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 2,
+                "medias" : [
+                  {
+                    "id" : 15,
+                    "_type" : "Callout",
+                    "def" : {
+                      "kind" : "TypeWinBlur",
+                      "shape" : "",
+                      "style" : "",
+                      "blur-invert" : 0.0,
+                      "height" : 270.0,
+                      "intensity" : 1.0,
+                      "width" : 480.0,
+                      "filename" : "D:\\Apps\\Camtasia 9\\Media\\Studio\\Callouts\\blur_100x100.xml",
+                      "name" : "模糊",
+                      "xmlContent" : "﻿<?xml version=\"1.0\"?>\n\n<Overlay version=\"1.0.1\">\n\n<Overlay_Filename>blur_100x100.png</Overlay_Filename>\n<Overlay_Name>模糊</Overlay_Name>\n<Text_Top>0</Text_Top>\n<Text_Left>0</Text_Left>\n<Text_Bottom>0</Text_Bottom>\n<Text_Right>0</Text_Right>\n<Fill_Color>0</Fill_Color>\n<Border_Color>0</Border_Color>\n</Overlay>"
+                    },
+                    "attributes" : {
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : -8.33333333330359,
+                      "translation1" : 2.77777777766885,
+                      "scale0" : 3.07947530864266,
+                      "scale1" : 2.2688614540477
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 288,
+                    "duration" : 56,
+                    "mediaStart" : -1,
+                    "mediaDuration" : 56,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 3,
+                "medias" : [
+                  {
+                    "id" : 16,
+                    "_type" : "Caption",
+                    "allowTrimOut" : 1,
+                    "maxMediaDuration" : 9.22337e+18,
+                    "parameters" : {
+                      "captionData" : {
+                        "type" : "caption",
+                        "keyframes" : [
+                          {
+                            "time" : -9999999,
+                            "value" : { "text" : "Hello 大家好", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 38,
+                            "value" : { "text" : "今天讲一下 REAPER 新手最容易遇到的问题", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 159,
+                            "value" : { "text" : "那就是 视频格式不支持怎么办", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 243,
+                            "value" : { "text" : "REAPER 默认支持的格式有这么几种", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 360,
+                            "value" : { "text" : "分别是 avi、mov （以及对应的4种编码）", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 572,
+                            "value" : { "text" : "超出这个范围的视频 像是 mp4 什么的", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 701,
+                            "value" : { "text" : "在你拖进去的时候很有可能会提示", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 812,
+                            "value" : { "text" : "这样子 无法导入一个对象（或多个对象）", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 949,
+                            "value" : { "text" : "这就说明这个视频格式 REAPER 不支持", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1039,
+                            "value" : { "text" : "如果想要支持怎么办呢", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1090,
+                            "value" : { "text" : "这里推荐一个最简便的方式", "textAttributes" : null },
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 1203,
+                            "value" : { "text" : "在设置里找到 Video", "textAttributes" : null },
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 10,
+                    "duration" : 1305,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1305,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 4,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 5,
+                "medias" : [
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 64,
+      "backgroundColor" : [ 0, 0, 0, 191],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "AutoSaveFile" : "C:\\Users\\Moy\\AppData\\Local\\TechSmith\\Camtasia Studio\\9.0\\Auto-Saves\\171122_REAPER 导入全格式视频33e7bc2.autosave.tscproj",
+    "CanvasZoom" : 54,
+    "Date" : "2017-11-22 01:06:04 上午",
+    "IsAutoSave" : "0",
+    "Language" : "ENU",
+    "ProfileName" : "",
+    "ProjectDimensionsChanged" : "1",
+    "Title" : "171122_REAPER 导入全格式视频",
+    "audioNarrationNotes" : "不支持的",
+    "calloutStyle" : "Basic",
+    "canvasDetached" : "False",
+    "canvasPositionHeight" : "0",
+    "canvasPositionLeft" : "0",
+    "canvasPositionTop" : "0",
+    "canvasPositionWidth" : "0"
+  }
+}

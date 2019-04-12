@@ -1,10 +1,20 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# @Author  : Moy (moyfoxther@gmail.com)
+# @Link    : https://github.com/Moyf
+# @Version : v1.2
+#
+# v1.2
+# * 将 os.popen 更改为 subprocess.Popen，以解决编码的问题
+
+
 import os, re
 import locale
+import subprocess
 
-print (locale.getpreferredencoding())
+# print (locale.getpreferredencoding())
 locale.setlocale(locale.LC_ALL,'zh_CN.UTF-8')
-print (locale.getpreferredencoding())
+# print (locale.getpreferredencoding())
 
 input_md = "test.md"
 file_name = re.match(r'(.*)\.md', input_md).group(1)
@@ -18,9 +28,20 @@ def readMarkdownFile(md):
 
 # execute command, and return the output  
 def execCmd(cmd):  
-    r = os.popen(cmd)
-    text = r.read()
-    r.close()
+    # r = os.popen(cmd)
+    # print(">>>>> %s" % type(r))
+
+    # text = r.read()
+    # r.close()
+
+    # out_bytes = subprocess.check_output([cmd])
+    # out_text = out_bytes.decode('utf-8')
+
+    p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    text = p.stdout.read().decode('utf-8')
+
+    # print ("Text = %s" % text)
+
     return text  
 
 # write "data" to file-filename  
@@ -36,17 +57,25 @@ def recode(text):
 def uploadImgs(imglist):
     urls = []
     url_pat = "http.*"
+    # execCmd("chcp 65001")
     
     for i in imglist:
         cmd = "picgo upload \"%s\"\nchcp 65001" % i
-        print(cmd)
+        cmd = "picgo upload \"%s\"" % i
+        print("\nStart Running cmd: \n---\n%s\n---\n" % cmd)
+
         result = execCmd(cmd)
+
         # 打印命令行的运行结果
         print ('CMD FEEDBACK: \n >> %s\n<<' % result)
-        
-        url = re.findall(url_pat, result)[0]
-        
-        urls.append(url)
+
+        try:
+            url = re.findall(url_pat, result)[0]
+            urls.append(url)
+        except IndexError:
+            print ("Upload failed. Remain origin img path.")
+            urls.append(imglist[i])
+
         # print ('Added %s' % url)
     
     return urls
@@ -54,6 +83,9 @@ def uploadImgs(imglist):
 
 if __name__ == '__main__':
     input_md = input("输入md文件名：")
+    # input_md = "test.md"
+    file_name = re.match(r'(.*)\.md', input_md).group(1)
+    
     img_list = []
     all_text = readMarkdownFile(input_md)
     
@@ -100,4 +132,7 @@ if __name__ == '__main__':
     with open(new_file_name, 'w', encoding='UTF-8') as new_md_file:
         new_md_file.write(new_md_data)
     
-    print (new_md_data)
+    # 打印修改完的内容
+    # print (new_md_data)
+
+    input("waiting...")
